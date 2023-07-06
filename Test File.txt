@@ -1,7 +1,7 @@
 # Test File For GitHub
 
 APIKEY=AVTOCKY
-PASSWORD=DAVEISGREAT
+PASSWORD=DAVEISGREATER
 
 Regular test Line 1
 Regular test Line 2
