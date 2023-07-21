@@ -17,7 +17,7 @@ steps:
     @ECHO OFF
 ECHO Running Gitleaks Scan
 
-set workingDir=C:\Users\10257710\SecretsScan
+REM Sset workingDir=C:\Users\10257710\SecretsScan
 set REPO_URL=https://github.com/porterds6120/TestRepo
 
 echo working DIR "%workingDir%"
