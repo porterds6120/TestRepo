@@ -17,26 +17,5 @@ steps:
     @ECHO OFF
 ECHO Running Gitleaks Scan
 
-REM Sset workingDir=C:\Users\10257710\SecretsScan
-set REPO_URL=https://github.com/porterds6120/TestRepo
-
-echo working DIR "%workingDir%"
-echo REPO URL "%REPO_URL%"
-
-echo Remove old working directory - start from scratch
-rmdir /s /q "%workingDir%"
-
-echo Create working DIR
-mkdir "%workingDir%"
-cd "%workingDir%"
-
-echo Clone the REPO into "%workingDir%"
-git -c http.sslVerify=false clone "%REPO_URL%"
-
-echo Running Gitleaks Scan......report found in "output.csv"
-gitleaks detect  -s .  -v   -r  output.csv --no-git
-
-REM Restore Currentb Dir
-cd ../
 
   displayName: 'Run a multi-line script'
