@@ -1,4 +1,8 @@
 # Starter pipeline
+trigger:
+- none
+pool: 
+vmi_image: ubuntu-latest
 - task: BatchScript@1
   inputs:
     filename: 'test.bat'
