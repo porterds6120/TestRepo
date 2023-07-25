@@ -2,5 +2,5 @@
 trigger:
  - none
  - task: BatchScript@1
-  inputs:
-    filename: cd ../
+   inputs:
+     filename: cd ../
