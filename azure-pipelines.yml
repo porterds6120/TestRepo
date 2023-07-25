@@ -1,6 +1,6 @@
 # Starter pipeline
 trigger:
  - none
-- task: BatchScript@1
+ - task: BatchScript@1
   inputs:
     filename: cd ../
