@@ -1,1 +1,13 @@
 # Starter pipeline
+# Bash v3
+# Run a Bash script on macOS, Linux, or Windows.
+- task: Bash@3
+  inputs:
+    #targetType: 'filePath' # 'filePath' | 'inline'. Type. Default: filePath.
+    filePath: # string. Required when targetType = filePath. Script Path. 
+    #arguments: # string. Optional. Use when targetType = filePath. Arguments. 
+    #script: # string. Required when targetType = inline. Script. 
+  # Advanced
+    #workingDirectory: # string. Working Directory. 
+    #failOnStderr: false # boolean. Fail on Standard Error. Default: false.
+    #bashEnvValue: # string. Set value for BASH_ENV environment variable.
