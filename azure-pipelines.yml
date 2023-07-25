@@ -1,5 +1,5 @@
 # Starter pipeline
-- task: Bash@3
+ task: Bash@3
   inputs:
     filePath: 'C:\Users\10257710\OneDrive - BD\Desktop\Secrets Scanning\PipelineDemoCode.bat'
 
