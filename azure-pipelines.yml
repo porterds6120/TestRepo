@@ -1,11 +1,4 @@
 # Starter pipeline
-# Batch script v1
-# Run a Windows command or batch script and optionally allow it to change the environment.
 - task: BatchScript@1
   inputs:
-    filename: # string. Required. Path. 
-    #arguments: # string. Arguments. 
-    #modifyEnvironment: False # boolean. Modify Environment. Default: False.
-  # Advanced
-    #workingFolder: # string. Working folder. 
-    #failOnStandardError: false # boolean. Fail on Standard Error. Default: false.
+    filename: 'test.bat'
