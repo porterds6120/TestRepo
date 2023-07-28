@@ -1,0 +1,7 @@
+# Test File For GitHub
+
+const AWS_KEY = \"AKIALALEMEL33243OBDBDBD\",
+
+Regular test Line 1
+Regular test Line 2
+Regular test Line 3
