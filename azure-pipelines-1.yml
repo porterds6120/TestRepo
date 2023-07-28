@@ -28,3 +28,10 @@ steps:
     echo Dave is great
   displayName: 'Run a multi-line script'
  
+- task: Gitleaks@2
+  inputs:
+    scanlocation: '$(Build.SourcesDirectory)'
+    configtype: 'predefined'
+    predefinedconfigfile: 'GitleaksUdmCombo.toml'
+    reportformat: 'sarif'
+    verbose: true
