@@ -14,7 +14,7 @@ steps:
   displayName: 'Run a one-line script'
 - bash: |
     which bash
-    echo Hello $name
+    echo Hello FAKE SECRETS SCAN
   displayName: Multiline Bash script
   env:
     name: Microsoft
