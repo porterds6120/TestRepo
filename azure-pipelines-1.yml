@@ -24,5 +24,5 @@ steps:
     scanlocation: '$(Build.SourcesDirectory)'
     configtype: 'default'
     scanmode: 'nogit'
-    reportformat: 'sarif'
+    reportformat: 'json'
     taskfailonexecutionerror: false
