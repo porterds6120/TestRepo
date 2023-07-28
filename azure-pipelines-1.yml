@@ -14,7 +14,10 @@ steps:
   displayName: 'Run a one-line script'
 - bash: |
     which bash
-    echo Hello FAKE SECRETS SCAN
+    echo Clone repo...
+    git -c http.sslVerify=false clone ./
+    echo Running Gitleaks Scan......
+    gitleaks detect  -s .  -v   --no-git
   displayName: Multiline Bash script
   env:
     name: Microsoft
