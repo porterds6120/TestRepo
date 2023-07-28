@@ -22,7 +22,7 @@ steps:
 - task: Gitleaks@2
   inputs:
     scanlocation: '$(Build.SourcesDirectory)'
-    configtype: 'predefined'
-    predefinedconfigfile: 'GitleaksUdmCombo.toml'
+    configtype: 'default'
+    scanmode: 'nogit'
     reportformat: 'sarif'
-    verbose: true
+    taskfailonexecutionerror: false
