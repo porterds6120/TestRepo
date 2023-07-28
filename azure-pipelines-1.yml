@@ -19,3 +19,6 @@ steps:
     echo See DSP
     echo Dave is great
   displayName: 'Run a multi-line script'
+  - task: BatchScript@1
+    inputs:
+      filename: 'test.bat'
