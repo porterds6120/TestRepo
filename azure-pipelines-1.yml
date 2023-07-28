@@ -12,15 +12,6 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-- bash: |
-    which bash
-    echo Clone repo...
-    git -c http.sslVerify=false clone ./
-    echo Running Gitleaks Scan......
-    gitleaks detect  -s .  -v   --no-git
-  displayName: Multiline Bash script
-  env:
-    name: Microsoft
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
