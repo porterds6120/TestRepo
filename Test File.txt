@@ -1,10 +1,10 @@
 # Test File For GitHub
 
-APIKEY=AVTOCKY
-PASSWORD=DAVEISGREATER
 const AWS_KEY = \"AKIALALEMEL33243ODSP\",
-const AWS_KEY = \"AKIALALEMEL33243O6120\",
 
 Regular test Line 1
 Regular test Line 2
 Regular test Line 3
+# this is some code
+const AWS_KEY = \"AKIALALEMEL33243O6120\",
+# this is some code2
